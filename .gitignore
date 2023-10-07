@@ -1,0 +1,101 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build artifacts and compiled code
+dist/
+out/
+build/
+*.js
+*.js.map
+
+# Ignore logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+!.env.example
+*.config.js
+
+# Ignore OS or IDE-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore dependency lock files
+package-lock.json
+yarn.lock
+
+# Ignore local configuration files
+*.config.json
+
+# Ignore development tools
+.eslintcache
+
+# Ignore generated files
+*.min.js
+
+# Ignore miscellaneous files
+*.bak
+*.swp
+*.swo
+*~
+
+# Ignore test or temporary files
+/coverage/
+/temp/
+/*.tmp
+
+# Ignore IDE settings
+/.vscode/
+/.idea/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jekyll build folder
+_site/
+.sass-cache/
+
+# Ignore system files that might be created on macOS
+.AppleDouble
+.DS_Store
+.LSOverride
+
+# Ignore Android build directories
+**/build/
+
+# Ignore Gradle files
+.gradle/
+
+# Ignore Maven build directories
+**/target/
+
+# Ignore Visual Studio Code directories
+.vscode/
+
+# Ignore SQLite files
+*.sqlite
+
+# Ignore Helm Charts
+charts/
+
+# Ignore logs
+*.log
+
+# Ignore Puppeteer screenshots
+screenshots/
+
+# Ignore Cypress videos and screenshots
+cypress/videos/
+cypress/screenshots/
