@@ -1,11 +1,5 @@
 import * as amqp from "amqplib/callback_api.js";
 
-type ConnectionCallback = (
-  error: Error | null,
-  connection: amqp.Connection
-) => void;
-type ChannelCallback = (error: Error | null, channel: amqp.Channel) => void;
-
 // Connect to RabbitMQ
 amqp.connect(
   "amqp://localhost",

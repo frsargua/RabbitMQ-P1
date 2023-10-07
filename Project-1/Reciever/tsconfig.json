@@ -6,9 +6,5 @@
     "sourceMap": true,
     "outDir": "dist"
   },
-  "include": ["src/**/*"],
-  "ts-node": {
-    "esm": true
-  },
-  "exclude": ["node_modules", "./*.ts", "__test__"]
+  "include": ["src/**/*"]
 }
